@@ -88,7 +88,6 @@ static void Chord(int[][] board, int x, int y)
         if (board[y][xm] == 19) found++;
         if (board[y][xa] == 19) found++;
     }
-
     if (mines == found)
         for (int yy = ym; yy <= ya; yy++)
             for (int xx = xm; xx <= xa; xx++)
